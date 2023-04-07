@@ -12,7 +12,7 @@ class Target < ISM::Software
                             "--buildtype=release",
                             "-Ddebug-gui=false",
                             "-Dtests=false",
-                            "--Ddocumentation=false",
+                            "-Ddocumentation=false",
                             "-Dlibwacom=false",
                             ".."],
                             buildDirectoryPath)

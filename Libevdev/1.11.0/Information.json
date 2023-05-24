@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Wrapper library for evdev devices",
   "website": "https://www.freedesktop.org/wiki/Software/libevdev/",
-  "downloadLinks": ["https://www.freedesktop.org/software/libevdev/libevdev-1.11.0.tar.xz"],
-  "md5sums": ["b09838ec120dabeebc08fa6a1943594f"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

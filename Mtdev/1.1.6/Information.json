@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Wrapper library for evdev devices",
   "website": "https://bitmath.org/code/mtdev",
-  "downloadLinks": ["https://bitmath.org/code/mtdev/mtdev-1.1.6.tar.bz2"],
-  "md5sums": ["bf8ef2482e84a00b5db8fbd3ce00e249"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

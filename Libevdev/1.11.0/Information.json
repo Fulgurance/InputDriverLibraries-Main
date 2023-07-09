@@ -13,6 +13,6 @@
       "options": []
     }
   ],
-  "kernelDependencies": [],
+  "kernelDependencies": ["CONFIG_INPUT","CONFIG_INPUT_EVDEV","CONFIG_INPUT_MISC","CONFIG_INPUT_UINPUT"],
   "options": []
 }

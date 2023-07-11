@@ -2,7 +2,9 @@
   "port": "InputDriverLibraries-Main",
   "name": "Libinput",
   "version": "1.18.1",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Library to handle input devices in Wayland compositors and to provide a generic X.Org input driver",
   "website": "https://www.freedesktop.org/wiki/Software/libinput",
   "installedFiles": [],
@@ -23,6 +25,8 @@
       "options": []
     }
   ],
-  "kernelDependencies": ["CONFIG_INPUT_UINPUT"],
+  "kernelDependencies": [
+    "CONFIG_INPUT_UINPUT"
+  ],
   "options": []
 }

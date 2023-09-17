@@ -28,5 +28,6 @@
   "kernelDependencies": [
     "CONFIG_INPUT_UINPUT"
   ],
-  "options": []
+  "options": [],
+  "uniqueOptions": []
 }

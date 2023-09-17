@@ -21,5 +21,6 @@
     "CONFIG_INPUT_MISC",
     "CONFIG_INPUT_UINPUT"
   ],
-  "options": []
+  "options": [],
+  "uniqueOptions": []
 }

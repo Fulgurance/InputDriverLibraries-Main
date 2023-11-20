@@ -1,0 +1,31 @@
+{
+  "port": "InputDriverLibraries-Main",
+  "name": "Libinput",
+  "version": "1.23.0",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Library to handle input devices in Wayland compositors and to provide a generic X.Org input driver",
+  "website": "https://www.freedesktop.org/wiki/Software/libinput",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Libevdev",
+      "version": "1.13.1",
+      "options": []
+    },
+    {
+      "name": "Mtdev",
+      "version": "1.1.6",
+      "options": []
+    },
+    {
+      "name": "Eudev",
+      "version": "3.2.14",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

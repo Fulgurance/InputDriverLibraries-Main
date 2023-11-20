@@ -1,0 +1,26 @@
+{
+  "port": "InputDriverLibraries-Main",
+  "name": "Libevdev",
+  "version": "1.13.1",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Wrapper library for evdev devices",
+  "website": "https://www.freedesktop.org/wiki/Software/libevdev/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [
+    "CONFIG_INPUT",
+    "CONFIG_INPUT_EVDEV",
+    "CONFIG_INPUT_MISC",
+    "CONFIG_INPUT_UINPUT"
+  ],
+  "options": [],
+  "uniqueOptions": []
+}

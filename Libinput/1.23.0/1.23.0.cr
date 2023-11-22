@@ -16,8 +16,7 @@ class Target < ISM::Software
                             "-Dtests=false",
                             "-Ddocumentation=false",
                             "-Dlibwacom=false",
-                            "-Dudev-dir=/usr/lib/udev",
-                            ".."],
+                            "-Dudev-dir=/usr/lib/udev"],
                             mainWorkDirectoryPath)
     end
     

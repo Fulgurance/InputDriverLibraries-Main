@@ -4,7 +4,7 @@ class Target < ISM::Software
         @buildDirectory = true
         super
 
-        runMesonCommand(["setup",@buildDirectoryNames["MainBuild"],"-Dlibwacom=false"],mainWorkDirectoryPath)
+        runMesonCommand(["setup",@buildDirectoryNames["MainBuild"],"-Dlibwacom=false","-Ddebug-gui=false"],mainWorkDirectoryPath)
     end
 
     def configure
@@ -16,7 +16,8 @@ class Target < ISM::Software
                             "-Dtests=false",
                             "-Ddocumentation=false",
                             "-Dlibwacom=false",
-                            "-Dudev-dir=/usr/lib/udev"],
+                            "-Dudev-dir=/usr/lib/udev",
+                            "-Ddebug-gui=false"],
                             mainWorkDirectoryPath)
     end
     

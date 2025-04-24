@@ -12,6 +12,12 @@
       "name": "Check",
       "version": ">=0.15.2",
       "options": []
+    },
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Meson",
+      "version": ">=1.6.0",
+      "options": []
     }
   ],
   "kernelDependencies": [

@@ -1,0 +1,21 @@
+PORT
+    InputDriverLibraries-Main
+NAME
+    Libinput
+VERSION
+    1.26.2
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Library to handle input devices in Wayland compositors and to provide a generic X.Org input driver
+WEBSITE
+    https://www.freedesktop.org/wiki/Software/libinput
+DEPENDENCIES
+        @InputDriverLibraries-Main:Libevdev>=1.13.1
+        @InputDriverLibraries-Main:Mtdev>=1.1.6
+        @FileSystems-Main:Eudev>=3.2.14
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

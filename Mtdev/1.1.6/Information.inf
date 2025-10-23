@@ -1,0 +1,19 @@
+PORT
+    InputDriverLibraries-Main
+NAME
+    Mtdev
+VERSION
+    1.1.6
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Wrapper library for evdev devices
+WEBSITE
+    https://bitmath.org/code/mtdev
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

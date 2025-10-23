@@ -1,0 +1,25 @@
+PORT
+    InputDriverLibraries-Main
+NAME
+    Libevdev
+VERSION
+    1.13.3
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Wrapper library for evdev devices
+WEBSITE
+    https://www.freedesktop.org/wiki/Software/libevdev/
+DEPENDENCIES
+        @ProgrammingTools-Main:Check>=0.15.2
+        @ProgrammingTools-Main:Meson>=1.6.0
+        @ProgrammingTools-Main:Ninja>=1.12.1
+KERNELDEPENDENCIES
+    CONFIG_INPUT
+    CONFIG_INPUT_EVDEV
+    CONFIG_INPUT_MISC
+    CONFIG_INPUT_UINPUT
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
